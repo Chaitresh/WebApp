@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 
 public class EmpModel {
-	private int id;
+	private int empId;
 	private String name;
 	private String email;
 	private int deptId;
@@ -15,8 +15,8 @@ public class EmpModel {
 	private String Designation;
 	
 	
-	public EmpModel(int id, String name, String email, int deptId, Gender gender, String designation) {
-		this.id = id;
+	public EmpModel(int empId, String name, String email, int deptId, Gender gender, String designation) {
+		this.empId = empId;
 		this.name = name;
 		this.email = email;
 		this.deptId = deptId;
@@ -25,10 +25,10 @@ public class EmpModel {
 	}
 	
 	public int getId() {
-		return id;
+		return empId;
 	}
 	public void setId(int id) {
-		this.id = id;
+		this.id = empId;
 	}
 	public String getName() {
 		return name;
