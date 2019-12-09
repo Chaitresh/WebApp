@@ -24,10 +24,10 @@ public class EmpModel {
 		Designation = designation;
 	}
 	
-	public int getId() {
+	public int getEmpId() {
 		return empId;
 	}
-	public void setId(int id) {
+	public void setEmpId(int empid) {
 		this.id = empId;
 	}
 	public String getName() {
