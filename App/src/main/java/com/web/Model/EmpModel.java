@@ -27,7 +27,7 @@ public class EmpModel {
 	public int getEmpId() {
 		return empId;
 	}
-	public void setEmpId(int empid) {
+	public void setEmpId(int empId) {
 		this.empId = empId;
 	}
 	public String getName() {
