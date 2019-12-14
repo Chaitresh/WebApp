@@ -23,6 +23,20 @@
  		<scope>provided</scope>
  	</dependency>
  	
+ 	<dependency>
+    	<groupId>com.microsoft.sqlserver</groupId>
+    	<artifactId>mssql-jdbc</artifactId>
+    	<version>7.4.1.jre11</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+	<dependency>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-core</artifactId>
+    	<version>5.4.9.Final</version>
+	</dependency>
+	
+ 	
  
   </dependencies>
   
