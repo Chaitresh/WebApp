@@ -1,17 +1,36 @@
 package com.web.Model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.stereotype.Component;
 
-
-
-@Component
-
+@Entity
+@Table(name="Emp_Details")
 public class EmpModel {
+	
+	@Id
+	@GeneratedValue(strategy= GenerationType.IDENTITY)
 	private int empId;
+	
+	@Column(name="Emp_Name")
 	private String name;
+	
+	@Column(name="Emp_Email")
 	private String email;
+	
+	@Column(name="Emp_Dept_Id")
 	private int deptId;
+	
+	@Column(name="Emp_Gender")
 	private Gender gender;
+	
+	@Column(name="Emp_Designation")
 	private String Designation;
 	
 	
